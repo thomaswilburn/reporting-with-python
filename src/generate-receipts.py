@@ -1,4 +1,5 @@
 import os
+import math
 from random import random
 from faker import Faker
 faker = Faker()
@@ -33,6 +34,7 @@ for i in range(1, 1000):
     amount = "{:.2f}".format(random() * 1000)
     account = faker.credit_card_number()
 
+    #output into a multiline string
     receipt = """
 #{i}    {name}    {ssn}
 {address}
@@ -41,6 +43,12 @@ Seattle, WA {zipcode}
 ${amount}    Acct: {account}
 """
     output = receipt.format(i=i, name=name, ssn=ssn, address=address, zipcode=zipcode, account=account, amount=amount)
+
+    #insert VOID at random
+    index = math.floor(random() * len(output))
+    output = output[0:index] + "VOID" + output[index:]
+
+    #create file
     filename = os.path.join(here, "day1/", str(i) + ".txt")
     with open(filename, "w") as f:
         f.write(output)
