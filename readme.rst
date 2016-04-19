@@ -12,6 +12,11 @@ Week one: basic Python skills
 
 For the first day of class, we'll be learning the basics of writing and launching Python scripts. This includes using imports, variables, lists, and loops. We'll use these skills to process a directory of receipts, looking for any that match a given address.
 
+Homework
+~~~~~~~~
+
+Read (and execute) the ``rps.py`` script in the ``samples`` directory, and add comments that explain what the script is doing on each line. Additionally, the script is actually broken: it will run, but the results are wrong in a subtle way. Can you find the bug? Add a comment at the end of the script describing the problem and the circumstances that cause it, or fix the bug inline if you feel ambitious.
+
 Week two: processing CSV files
 -----------------------------
 
@@ -28,3 +33,4 @@ Further reading
 * `Learn Python the Hard Way <http://learnpythonthehardway.org/book/>`_
 * `The Bastards Book of Regular Expressions <http://regex.bastardsbook.com/files/bastards-regexes.pdf>`_
 * `The Quartz guide to bad data <https://github.com/Quartz/bad-data-guide>`_
+* `How to interview a big pile of data <http://training.npr.org/visual/what-to-do-with-a-big-pile-of-data/>`_
