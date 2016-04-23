@@ -1,7 +1,7 @@
 Data Reporting with Python
 ==========================
 
-This repository contains sample data, homework reading, and data generation scripts for the 2016 Data Reporting with Python (COM499) class at UW. For this class, I assume that you've installed Python using the `Miniconda <http://http://conda.pydata.org/miniconda.html>`_ distribution for your operating system, and are using a Bash shell of some kind (on Windows, installing `Git <http://git-scm.com>`_ is a good way to start).
+This repository contains sample data, homework reading, and data generation scripts for the 2016 Data Reporting with Python (COM499) class at UW. For this class, we'll be using `PythonAnywhere <http://pythonanywhere.com>`_. If you're working from home, the best starter kit is probably to install the `Miniconda <http://http://conda.pydata.org/miniconda.html>`_ distribution for your operating system, and use a Bash shell of some kind (Terminal on a Mac--on Windows, installing `Git <http://git-scm.com>`_ is a good way to start).
 
 You can install this repo by running the following code::
 
@@ -30,6 +30,7 @@ There's no data reporting tool more powerful, more versatile, or more dangerous 
 Further reading
 ---------------
 
+* `Python 3 Docs <https://docs.python.org/3/>`_
 * `Learn Python the Hard Way <http://learnpythonthehardway.org/book/>`_
 * `The Bastards Book of Regular Expressions <http://regex.bastardsbook.com/files/bastards-regexes.pdf>`_
 * `The Quartz guide to bad data <https://github.com/Quartz/bad-data-guide>`_
