@@ -22,6 +22,15 @@ Week two: processing CSV files
 
 Comma-separated values (CSV) files are the simplest building blocks of data exchange, and thus handling them is a fundamental skill for data journalists. This week, we'll learn how to use Python's CSV module to read in a large dataset, then scour it for interesting information.
 
+Homework
+~~~~~~~~
+
+There's a second CSV file in the ``reporting-with-python/day2`` folder named ``animals.csv``, containing all records of Seattle animal imports for 2014. Using what we've learned in class, write a script that reads this file and answers the following questions:
+
+* How many bears were imported? How many of each kind of bear?
+* What country imports the greatest number of trophies (description of TRO)?
+* Last year's Initiative 1401 banned the import (for resale purposes) of elephants, rhinoceros, tigers, lions, leopards, cheetahs, pangolins, marine turtles, sharks, and rays. How many of these animals were actually imported in Seattle in 2014 anyway?
+
 Week three: regular expressions
 ------------------------------
 
