@@ -36,6 +36,15 @@ Week three: regular expressions
 
 There's no data reporting tool more powerful, more versatile, or more dangerous than regular expressions. Although we'll spend this class leveraging Python's ``re`` module to dissect text, you can use the basics of regex in any language--or even just from simple command-line tools without any programming at all.
 
+Homework
+~~~~~~~~
+
+The following are real regular expressions that I've written in the last year for cleaning up data or working on projects. In plain English, explain what they do. Hint: it may be useful to load them into a Python file and test them, just to see if your explanation is correct.
+
+* ``^([\d.]+) km (.*)$`` - used in a story about earthquake locations
+* ``City of (.*?) Council (Position|District) No. (\d+)`` - from our 2015 election results scraper
+* ``(\w+ ){0,2}@(\w+)( \w+){0,2}`` - analyzing Twitter results from a search
+
 Further reading
 ---------------
 
