@@ -43,7 +43,7 @@ The following are real regular expressions that I've written in the last year fo
 
 * ``^([\d.]+) km (.*)$`` - used in a story about earthquake locations
 * ``City of (.*?) Council (Position|District) No. (\d+)`` - from our 2015 election results scraper
-* ``(\w+ ){0,2}@(\w+)( \w+){0,2}`` - analyzing Twitter results from a search
+* ``((\w+ ){0,2})@(\w+)(( \w+){0,2})`` - analyzing Twitter results from a search
 
 Further reading
 ---------------
