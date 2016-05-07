@@ -45,6 +45,20 @@ The following are real regular expressions that I've written in the last year fo
 * ``City of (.*?) Council (Position|District) No. (\d+)`` - from our 2015 election results scraper
 * ``((\w+ ){0,2})@(\w+)(( \w+){0,2})`` - analyzing Twitter results from a search
 
+It may be useful to use a tool like `Regexr <http://regexr.com>`_ to view and test your regular expressions. Here is also a list of all the special characters that we covered in class:
+
+* ``.`` - A wildcard for any character
+* ``+`` - Repeat the previous character one or more times
+* ``*`` - Repeat the previous character zero or more times
+* ``?`` - Combined with repetition, asks for the smallest match possible. Otherwise, makes the previous character optional.
+* ``()`` - Puts the characters in a group, for capturing or repetition.
+* ``[]`` - Finds any character between the braces.
+* ``\w`` - Finds any word character (a-z, 0-9, and _)
+* ``\d`` - Finds any digit.
+* ``\b`` - Finds a "word boundary"
+* ``^`` - Finds the start of the line (i.e., the match must be at the start of the line).
+* ``$`` - Finds  the end of the line (i.e., the match must be at the end of the line).
+
 Further reading
 ---------------
 
@@ -53,3 +67,4 @@ Further reading
 * `The Bastards Book of Regular Expressions <http://regex.bastardsbook.com/files/bastards-regexes.pdf>`_
 * `The Quartz guide to bad data <https://github.com/Quartz/bad-data-guide>`_
 * `How to interview a big pile of data <http://training.npr.org/visual/what-to-do-with-a-big-pile-of-data/>`_
+* `NICAR 2016 links <http://j.mp/nicar16>`_
